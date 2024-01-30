@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "type": "Cardiologist",
+    "qualification": "MBBS",
+    "phone": "1232111231"
+  },
+  {
+    "id": "2",
+    "name": "Sam Smith",
+    "type": "Neurologist",
+    "qualification": "MBBS",
+    "phone": "1222311231"
+  }
+]

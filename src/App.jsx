@@ -1,7 +1,7 @@
 import "./App.css";
 import NavBar from "./NavBar";
 import Home from "./pages/home/Home";
-import Contact from "./pages/Contact";
+import Contact from "./pages/contact/Contact";
 import Book from "./pages/Book";
 import { Offline, Online } from "react-detect-offline";
 import Error from "./Error";

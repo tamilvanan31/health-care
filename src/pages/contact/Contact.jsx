@@ -1,5 +1,7 @@
 import { FaPhoneAlt, FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import DoctorCard from "./DoctorCard";
+import doctors from "./../../data/data.json";
 
 const Contact = () => {
   return (
@@ -20,7 +22,11 @@ const Contact = () => {
           <FaInstagram /> health.care
         </p>
       </div>
-      <div className="doctors-card"></div>
+      <div className="doctors-card">
+        {doctors.map(doc => (
+          <DoctorCard key={doc.id} {...doc} />
+        ))}
+      </div>
     </div>
   );
 };
