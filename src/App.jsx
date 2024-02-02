@@ -1,12 +1,12 @@
 import "./App.css";
-import NavBar from "./NavBar";
+import { Online, Offline } from "react-detect-offline";
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Error from "./components/Error";
 import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 import Book from "./pages/Book";
-import { Offline, Online } from "react-detect-offline";
-import Error from "./Error";
-import { Route, Routes } from "react-router-dom";
-import Footer from "./Footer";
 
 function App() {
   return (

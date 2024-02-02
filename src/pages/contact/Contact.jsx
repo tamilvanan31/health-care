@@ -1,7 +1,7 @@
 import { FaPhoneAlt, FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import DoctorCard from "./DoctorCard";
-import doctors from "./../../data/data.json";
+import doctors from "../../data/data.json";
 
 const Contact = () => {
   return (
