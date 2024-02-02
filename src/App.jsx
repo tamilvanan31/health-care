@@ -18,6 +18,14 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/book" element={<Book />} />
+            <Route
+              path="*"
+              element={
+                <div style={{ textAlign: "center", marginTop: "50px" }}>
+                  Not Found or You do not have permission.
+                </div>
+              }
+            />
           </Routes>
         </div>
         <Footer />
