@@ -4,6 +4,11 @@ import DoctorCard from "./DoctorCard";
 import doctors from "../../data/data.json";
 
 const Contact = () => {
+  const doctorsCardStyle = {
+    display: "grid",
+    gridTemplateColumns: "auto auto auto auto",
+  };
+
   return (
     <div className="sub-container">
       <div className="contact">
@@ -22,8 +27,8 @@ const Contact = () => {
           <FaInstagram /> health.care
         </p>
       </div>
-      <div className="doctors-card">
-        {doctors.map(doc => (
+      <div style={doctorsCardStyle}>
+        {doctors.map((doc) => (
           <DoctorCard key={doc.id} {...doc} />
         ))}
       </div>

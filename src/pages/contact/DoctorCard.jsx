@@ -1,9 +1,16 @@
 import PropTypes from "prop-types";
 
-const DoctorCard = props => {
+const DoctorCard = (props) => {
   const { name, type, qualification, phone } = props;
+  const doctorCard = {
+    backgroundColor: "rgb(65, 65, 63)",
+    borderRadius: " 10px",
+    padding: "2rem",
+    margin: "1rem",
+    textAlign: "center",
+  };
   return (
-    <div className="doctor-card">
+    <div style={doctorCard}>
       <p>{name}</p>
       <p>{type}</p>
       <p>{qualification}</p>

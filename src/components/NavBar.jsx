@@ -4,7 +4,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 function NavBar() {
   return (
     <nav>
-      <Link to="/" className="site-title">
+      <Link to="/" style={{ fontSize: "2rem" }}>
         Health Care
       </Link>
       <ul>

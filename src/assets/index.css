@@ -81,10 +81,6 @@ nav ul {
   gap: 1rem;
 }
 
-.site-title {
-  font-size: 2rem;
-}
-
 footer {
   background-color: #333;
   border: none;
@@ -110,26 +106,10 @@ footer {
   overflow: hidden;
 }
 
-.intro {
-  width: 122px;
-}
-
 .height,
 .weight {
   margin-bottom: 1rem;
   margin-left: 1rem;
-}
-
-.bmi {
-  margin: 0 auto;
-  padding: 1rem;
-  margin-top: 3rem;
-}
-
-.quote {
-  font-size: 3rem;
-  width: 350px;
-  font-weight: lighter;
 }
 
 .support-container {
@@ -137,41 +117,4 @@ footer {
   grid-template-columns: auto auto;
   grid-gap: 2rem;
   width: 600px;
-}
-
-.support-item {
-  background-color: rgb(65, 65, 63);
-  width: 245px !important;
-  padding: 1rem;
-  border-radius: 10px;
-}
-
-.support-icon {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
-  background-color: rgb(65, 65, 63);
-}
-
-.clinic-hours {
-  padding: 2rem;
-  width: 400px;
-}
-
-.doctors-card {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-.doctor-card {
-  background-color: rgb(65, 65, 63);
-  border-radius: 10px;
-  padding: 2rem;
-  margin: 1rem;
-  text-align: center;
-}
-
-.error {
-  margin: 0 auto;
-  text-align: center;
 }
